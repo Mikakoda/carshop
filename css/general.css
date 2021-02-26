@@ -1,0 +1,105 @@
+/* span {
+    font-size: 50px;
+} */
+
+.main_link {
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+}
+
+.main_link:hover {
+background-color: darkolivegreen;
+color: white;
+}
+
+#current_page {
+    background-color:darkblue;
+    color: white;
+}
+    
+    div span {
+        color: blue;
+    }
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #firstname:active {
+background-color: yellow;
+    }
+
+    #website_banner {
+        font-weight: normal;
+        font-style: normal;
+        text-transform: capitalize;
+        text-align: center;
+        text-shadow: 2px 2px 0px yellow;
+        text-indent: 0px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+
+    ul {
+        list-style-type: square;
+        list-style: url("../images/image.png") circle outside;
+        /* list-style-position: outside; */
+    }
+
+    .about_us_pic {
+        height: 250px;
+        width:250px;
+        background-color: darkseagreen;
+        /* margin-bottom: 20px; */
+        margin: 10px 20px ;
+        padding: 50px;
+        border: 10px solid red;
+        border-radius: 250px;
+        overflow: hiden;
+        box-sizing: content-box;
+        box-shadow: 5px 7px 0px blue;
+        display: inline-block;
+        position: static;
+
+    }
+
+    body {
+        height: 2500px;
+    }
+
+    #pic1 {
+        background-image: url("../images/list.jpg") ;
+        /* background-repeat: no-repeat; */
+        /* background-attachment: scroll; */
+        /* background-size: center center; */
+        background: url("../images/mercedes.jpg") no-repeat center center;
+        float: right;
+    }
+    #pic2{
+        /* left: 50px; */
+        /* z-index: 1; */
+        float: right;
+    }
+
+    #pic3 {
+        float: right;
+    }
+
+    #pic4{
+        z-index: -1;
+    }
+
+    #homepage_banner{
+        width: 100%;
+    }
+
+    table {
+        empty-cells: hide;
+        border-spacing: 5px 10px;
+        border-collapse: collapse;
+    }
+
+
+
+

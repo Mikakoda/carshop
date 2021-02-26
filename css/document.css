@@ -1,0 +1,35 @@
+
+.document_pic{
+height: 100px;
+width: 100px;
+shape-margin: square;
+background-color: blue;
+margin: 10px 20px ;
+padding: 50px;
+border: 25px groove yellow;
+/* border-radius: 250px; */
+overflow: hidden;
+/* box-sizing: content-box; */
+display: inline-block;
+position: static;
+
+}
+
+
+#pic5 {
+    float: left;
+}
+
+#pic6 {
+    float: center; background-color: red;
+}
+
+#pic7 {
+    float: right; background-color: seagreen;
+}
+
+#pic8 {
+    float: right; background-color: darkred;
+}
+
+
