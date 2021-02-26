@@ -100,6 +100,9 @@ background-color: yellow;
         border-collapse: collapse;
     }
 
-
+#container {
+    width: 85%;
+    margin: auto;
+}
 
 
